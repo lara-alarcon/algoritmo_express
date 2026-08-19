@@ -9,10 +9,10 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Es momento de cepillarse los dientes. Ordená correctamente los pasos para completar la rutina.",
         "pasos": [
-            "Agarrar el cepillo",
-            "Colocar la pasta dental",
-            "Cepillarse los dientes",
-            "Enjuagarse la boca"
+            "Agarrar el cepillo de dientes",
+            "Colocar pasta dental en el cepillo",
+            "Cepillarse y enguajarse la boca",
+            "Limpiar y guardar el cepillo de dientes"
         ],
         "explicacion": "Un algoritmo permite transformar una actividad cotidiana en una serie de acciones que podemos repetir de manera organizada."
     },
@@ -54,8 +54,8 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Querés descargar un juego en tu celular. Organizá correctamente las instrucciones.",
         "pasos": [
-            "Abrir la tienda",
-            "Buscar el juego",
+            "Abrir la tienda de aplicaciones",
+            "Buscar el juego que queremos descargar",
             "Instalar el juego",
             "Abrir el juego"
         ],
@@ -85,8 +85,8 @@ ESCENARIOS = [
         "historia": "Necesitás llegar a un lugar. Ordená los pasos para encontrar una ruta en el GPS.",
         "pasos": [
             "Abrir el GPS",
-            "Ingresar el destino",
-            "Seleccionar la ruta",
+            "Ingresar el destino en el GPS",
+            "Seleccionar la ruta preferida",
             "Iniciar la navegación"
         ],
         "explicacion": "Los sistemas de navegación siguen una serie de pasos para recibir un destino, calcular una ruta y guiar al usuario hasta su destino."
@@ -114,10 +114,10 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Querés crear una playlist para escuchar tus canciones favoritas. Ordená los pasos.",
         "pasos": [
-            "Abrir la aplicación",
-            "Crear una playlist",
-            "Agregar canciones",
-            "Reproducir la playlist"
+            "Abrir la aplicación de Spotify",
+            "Crear una nueva playlist",
+            "Agregar nuestras canciones favoritas",
+            "Guardar los cambios realizados"
         ],
         "explicacion": "Los algoritmos también forman parte de las aplicaciones que usamos a diario para organizar y realizar acciones."
     },
@@ -132,11 +132,11 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés publicar una foto en tu perfil. Ordená los pasos para realizar la publicación.",
         "pasos": [
-            "Abrir Instagram",
-            "Crear una publicación",
-            "Elegir una foto",
+            "Abrir la aplicación de Instagram",
+            "Crear una nueva publicación",
+            "Elegir una foto de la galería",
             "Agregar una descripción",
-            "Publicar"
+            "Publicar la foto"
         ],
         "explicacion": "Las redes sociales guían nuestras acciones mediante secuencias estandarizadas para lograr publicar contenido ordenadamente."
     },
@@ -164,11 +164,11 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés enviarle un mensaje rápido a un amigo. Ordená los pasos correspondientes.",
         "pasos": [
-            "Abrir WhatsApp",
+            "Abrir la aplicación de WhatsApp",
             "Buscar el contacto",
             "Escribir el mensaje",
             "Revisar que el texto esté correcto",
-            "Enviar"
+            "Enviar el mensaje"
         ],
         "explicacion": "Incluso la comunicación cotidiana depende de algoritmos digitales que organizan las entradas y salidas de información."
     },
@@ -180,7 +180,7 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Tenés hambre y querés pedir comida desde una app. Ordená los pasos para realizar el pedido.",
         "pasos": [
-            "Abrir la aplicación",
+            "Abrir la aplicación de delivery",
             "Elegir el local",
             "Agregar productos al carrito",
             "Elegir el método de pago",
@@ -196,11 +196,11 @@ ESCENARIOS = [
             "dificultad": "medio",
             "historia": "Querés aprender a resolver un problema viendo un video. Ordená las instrucciones.",
             "pasos": [
-                "Abrir YouTube",
-                "Buscar un tutorial",
+                "Abrir la aplicación de YouTube",
+                "Buscar un tutorial sobre el tema",
                 "Revisar los resultados",
-                "Elegir un video",
-                "Reproducir"
+                "Elegir el video que más te guste",
+                "Reproducir el video"
             ],
             "explicacion": "El acceso a la información digital sigue una secuencia lógica de consulta, filtrado, selección y ejecución."
         },
@@ -212,8 +212,8 @@ ESCENARIOS = [
             "dificultad": "medio",
             "historia": "Necesitás efectivo. Ordená los pasos para realizar la extracción en el cajero automático.",
             "pasos": [
-                "Insertar la tarjeta",
-                "Ingresar el PIN",
+                "Insertar la tarjeta en el cajero",
+                "Ingresar el PIN correcto",
                 "Seleccionar la opción de extracción",
                 "Ingresar el monto a retirar",
                 "Retirar el dinero"
@@ -263,11 +263,11 @@ ESCENARIOS = [
         "dificultad": "dificil",
         "historia": "Fuiste al supermercado a reponer mercadería. Ordená los pasos desde la entrada hasta la salida.",
         "pasos": [
-            "Agarrar un carrito",
+            "Agarrar un carrito de compras",
             "Poner los productos en el carrito",
             "Hacer la fila para pagar",
             "Pagar en la caja",
-            "Guardar las compras"
+            "Guardar las compras en la bolsa"
         ],
         "explicacion": "Las secuencias operativas del mundo físico requieren cumplir dependencias lógicas claras para completar un proceso."
     },
@@ -283,7 +283,7 @@ ESCENARIOS = [
                 "Amasar la mezcla",
                 "Dar forma a las galletitas",
                 "Hornear las galletitas",
-                "Dejar enfriar y servir"
+                "Retirar del horno y dejar enfriar"
             ],
             "explicacion": "Los algoritmos son especialmente útiles cuando una tarea tiene varias etapas y algunas acciones dependen de otras."
         },
@@ -312,7 +312,7 @@ ESCENARIOS = [
         "historia": "Querés ir al cine con amigos y comprar las entradas desde la app. Ordená los pasos para realizar la compra.",
         "pasos": [
             "Abrir la aplicación del cine",
-            "Elegir el cine",
+            "Elegir el cine más cercano",
             "Seleccionar la película",
             "Elegir el horario y cantidad de entradas",
             "Pagar las entradas",
@@ -331,7 +331,7 @@ ESCENARIOS = [
             "Grabar el video",
             "Editar el video",
             "Guardar el proyecto final",
-            "Publicar"
+            "Publicar el video"
         ],
         "explicacion": "Los algoritmos pueden utilizarse para planificar proyectos creativos, organizando ideas y acciones hasta llegar a un resultado final."
     }
