@@ -9,10 +9,10 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Es momento de cepillarse los dientes. Ordená correctamente los pasos para completar la rutina.",
         "pasos": [
-            "Agarrar el cepillo de dientes",
-            "Poner pasta dental en el cepillo",
+            "Agarrar el cepillo",
+            "Colocar la pasta dental",
             "Cepillarse los dientes",
-            "Enjuagarse la boca y guardar el cepillo"
+            "Enjuagarse la boca"
         ],
         "explicacion": "Un algoritmo permite transformar una actividad cotidiana en una serie de acciones que podemos repetir de manera organizada."
     },
@@ -25,7 +25,7 @@ ESCENARIOS = [
         "historia": "Necesitás medir tu temperatura. Ordená los pasos correctamente.",
         "pasos": [
             "Buscar el termómetro",
-            "Colocar el termómetro correctamente",
+            "Colocarlo correctamente",
             "Esperar la medición",
             "Retirar y leer la temperatura"
         ],
@@ -40,7 +40,7 @@ ESCENARIOS = [
         "historia": "Querés preparar una tostada con manteca. Ordená los pasos correctamente.",
         "pasos": [
             "Tomar una rebanada de pan",
-            "Tostar el pan y esperar a que termine",
+            "Tostar el pan",
             "Retirar la tostada",
             "Untar la manteca"
         ],
@@ -54,9 +54,9 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Querés descargar un juego en tu celular. Organizá correctamente las instrucciones.",
         "pasos": [
-            "Abrir la tienda de aplicaciones",
+            "Abrir la tienda",
             "Buscar el juego",
-            "Presionar el botón de instalar y esperar la descarga",
+            "Instalar el juego",
             "Abrir el juego"
         ],
         "explicacion": "Un algoritmo permite indicar con claridad qué acciones necesita realizar una persona o un sistema para completar una tarea."
@@ -69,7 +69,7 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Una planta necesita agua. Organizá correctamente los pasos para regarla.",
         "pasos": [
-            "Buscar una regadera y llenarla con agua",
+            "Llenar la regadera con agua",
             "Acercarse a la planta",
             "Regar la planta",
             "Guardar la regadera"
@@ -79,17 +79,17 @@ ESCENARIOS = [
 
     {
         "id": 14,
-        "titulo": "Escanear un código QR para ver el menú",
+        "titulo": "Buscar una ruta en el GPS",
         "concepto": "Algoritmo",
         "dificultad": "facil",
-        "historia": "Llegaste a un local y querés ver el menú digital. Ordená los pasos para escanear el QR.",
+        "historia": "Necesitás llegar a un lugar. Ordená los pasos para encontrar una ruta en el GPS.",
         "pasos": [
-            "Ubicar el código QR en la mesa",
-            "Abrir la cámara del celular",
-            "Apuntar la cámara hacia el código QR",
-            "Tocar el enlace para ver el menú en pantalla"
+            "Abrir el GPS",
+            "Ingresar el destino",
+            "Seleccionar la ruta",
+            "Iniciar la navegación"
         ],
-        "explicacion": "Un procedimiento simple y automatizado permite conectar una acción física con una respuesta digital inmediata."
+        "explicacion": "Los sistemas de navegación siguen una serie de pasos para recibir un destino, calcular una ruta y guiar al usuario hasta su destino."
     },
 
     {
@@ -99,10 +99,10 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Necesitás llevar agua con vos. Ordená los pasos para preparar la botella.",
         "pasos": [
-            "Buscar una botella y abrirla",
-            "Llenar la botella con agua",
+            "Abrir la botella",
+            "Llenarla con agua",
             "Cerrar la botella",
-            "Guardar la botella"
+            "Guardarla"
         ],
         "explicacion": "Una secuencia permite representar una actividad de forma clara, haciendo que el objetivo sea fácil de identificar."
     },
@@ -114,10 +114,10 @@ ESCENARIOS = [
         "dificultad": "facil",
         "historia": "Querés crear una playlist para escuchar tus canciones favoritas. Ordená los pasos.",
         "pasos": [
-            "Abrir la aplicación de música",
-            "Crear una nueva playlist",
-            "Buscar una canción y agregarla",
-            "Guardar los cambios en la playlist"
+            "Abrir la aplicación",
+            "Crear una playlist",
+            "Agregar canciones",
+            "Reproducir la playlist"
         ],
         "explicacion": "Los algoritmos también forman parte de las aplicaciones que usamos a diario para organizar y realizar acciones."
     },
@@ -132,11 +132,11 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés publicar una foto en tu perfil. Ordená los pasos para realizar la publicación.",
         "pasos": [
-            "Abrir la aplicación de Instagram",
-            "Seleccionar la opción de crear publicación",
-            "Elegir la foto de la galería",
-            "Aplicar un filtro y escribir el pie de foto",
-            "Presionar el botón de publicar"
+            "Abrir Instagram",
+            "Crear una publicación",
+            "Elegir una foto",
+            "Agregar una descripción",
+            "Publicar"
         ],
         "explicacion": "Las redes sociales guían nuestras acciones mediante secuencias estandarizadas para lograr publicar contenido ordenadamente."
     },
@@ -148,10 +148,10 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés preparar una pizza. Ordená las instrucciones para completar la receta.",
         "pasos": [
-            "Preparar la masa y dejarla reposar",
-            "Estirar la masa sobre la bandeja",
-            "Agregar la salsa de tomate",
-            "Agregar el queso y los ingredientes",
+            "Preparar la masa",
+            "Estirar la masa",
+            "Agregar la salsa",
+            "Agregar el queso",
             "Hornear la pizza"
         ],
         "explicacion": "Las recetas son algoritmos porque convierten una preparación en instrucciones que permiten obtener un resultado esperado."
@@ -164,11 +164,11 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés enviarle un mensaje rápido a un amigo. Ordená los pasos correspondientes.",
         "pasos": [
-            "Abrir la aplicación de WhatsApp",
-            "Buscar y abrir el chat del contacto",
-            "Escribir el mensaje en el campo de texto",
+            "Abrir WhatsApp",
+            "Buscar el contacto",
+            "Escribir el mensaje",
             "Revisar que el texto esté correcto",
-            "Presionar el botón de enviar"
+            "Enviar"
         ],
         "explicacion": "Incluso la comunicación cotidiana depende de algoritmos digitales que organizan las entradas y salidas de información."
     },
@@ -180,11 +180,11 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Tenés hambre y querés pedir comida desde una app. Ordená los pasos para realizar el pedido.",
         "pasos": [
-            "Abrir la aplicación de delivery",
-            "Elegir el restaurante y el menú deseado",
-            "Agregar los productos al carrito",
+            "Abrir la aplicación",
+            "Elegir el local",
+            "Agregar productos al carrito",
             "Elegir el método de pago",
-            "Confirmar y enviar el pedido"
+            "Confirmar y pagar el pedido"
         ],
         "explicacion": "Los pedidos en línea requieren seguir un flujo ordenado de pasos para garantizar que la solicitud llegue correctamente."
     },
@@ -196,11 +196,11 @@ ESCENARIOS = [
             "dificultad": "medio",
             "historia": "Querés aprender a resolver un problema viendo un video. Ordená las instrucciones.",
             "pasos": [
-                "Abrir la aplicación de videos",
-                "Escribir el tema en la barra de búsqueda",
-                "Revisar la lista de resultados",
-                "Seleccionar el video más relevante",
-                "Presionar reproducir y ajustar el volumen"
+                "Abrir YouTube",
+                "Buscar un tutorial",
+                "Revisar los resultados",
+                "Elegir un video",
+                "Reproducir"
             ],
             "explicacion": "El acceso a la información digital sigue una secuencia lógica de consulta, filtrado, selección y ejecución."
         },
@@ -212,11 +212,11 @@ ESCENARIOS = [
             "dificultad": "medio",
             "historia": "Necesitás efectivo. Ordená los pasos para realizar la extracción en el cajero automático.",
             "pasos": [
-                "Insertar la tarjeta en el cajero automático",
-                "Ingresar la clave personal (PIN)",
-                "Seleccionar la opción de extracción de dinero",
-                "Ingresar el monto que querés retirar",
-                "Retirar el dinero y el comprobante emitido"
+                "Insertar la tarjeta",
+                "Ingresar el PIN",
+                "Seleccionar la opción de extracción",
+                "Ingresar el monto a retirar",
+                "Retirar el dinero"
             ],
             "explicacion": "Los sistemas bancarios validan la identidad del usuario mediante credenciales antes de autorizar cualquier entrega de dinero."
         },
@@ -228,7 +228,7 @@ ESCENARIOS = [
         "dificultad": "medio",
         "historia": "Querés jugar online con tus amigos. Ordená los pasos necesarios para comenzar la partida.",
         "pasos": [
-            "Abrir el videojuego e iniciar sesión",
+            "Abrir el videojuego",
             "Seleccionar el modo multijugador",
             "Crear una sala de juego",
             "Invitar a tus amigos a la sala",
@@ -238,21 +238,20 @@ ESCENARIOS = [
     },
 
 
-    # Dificil (6 Pasos)
+    # Dificil (5 Pasos)
 
     {
         "id": 6,
-        "titulo": "Preparar fideos",
+        "titulo": "Preparar pochoclos",
         "concepto": "Secuencia",
         "dificultad": "dificil",
-        "historia": "Vas a preparar fideos con salsa. Ordená los pasos para completar la receta.",
+        "historia": "Querés preparar pochoclos para ver una película. Ordená los pasos para completar la receta.",
         "pasos": [
-            "Llenar una olla con agua y ponerla al fuego",
-            "Esperar a que el agua hierva",
-            "Agregar los fideos",
-            "Cocinar los fideos durante el tiempo necesario",
-            "Escurrir los fideos en el colador",
-            "Servir los fideos en el plato"
+            "Calentar la olla",
+            "Agregar aceite y maíz",
+            "Tapar la olla",
+            "Esperar a que revienten",
+            "Servir los pochoclos"
         ],
         "explicacion": "Cuanto más complejo es un proceso, más útil resulta expresarlo como un algoritmo para evitar olvidar acciones importantes."
     },
@@ -264,12 +263,11 @@ ESCENARIOS = [
         "dificultad": "dificil",
         "historia": "Fuiste al supermercado a reponer mercadería. Ordená los pasos desde la entrada hasta la salida.",
         "pasos": [
-            "Tomar un carro de compras en la entrada",
-            "Recorrer los pasillos seleccionando los productos",
-            "Hacer la fila en la caja registradora",
-            "Colocar los productos sobre la cinta para ser escaneados",
-            "Pagar el total al cajero",
-            "Empacar la mercadería en las bolsas y retirar el ticket"
+            "Agarrar un carrito",
+            "Poner los productos en el carrito",
+            "Hacer la fila para pagar",
+            "Pagar en la caja",
+            "Guardar las compras"
         ],
         "explicacion": "Las secuencias operativas del mundo físico requieren cumplir dependencias lógicas claras para completar un proceso."
     },
@@ -281,12 +279,11 @@ ESCENARIOS = [
             "dificultad": "dificil",
             "historia": "Querés preparar galletitas dulces caseras. Ordená los pasos para lograrlo.",
             "pasos": [
-                "Mezclar la harina, el azúcar y la manteca en un bol",
-                "Amasar hasta obtener una consistencia homogénea",
-                "Estirar la masa y cortar las formas de las galletitas",
-                "Colocar las piezas en una bandeja para horno",
-                "Hornear a temperatura media hasta que estén doradas",
-                "Dejar enfriar antes de servir"
+                "Mezclar los ingredientes",
+                "Amasar la mezcla",
+                "Dar forma a las galletitas",
+                "Hornear las galletitas",
+                "Dejar enfriar y servir"
             ],
             "explicacion": "Los algoritmos son especialmente útiles cuando una tarea tiene varias etapas y algunas acciones dependen de otras."
         },
@@ -298,12 +295,11 @@ ESCENARIOS = [
         "dificultad": "dificil",
         "historia": "Tienen que exponer en grupo en la escuela. Ordená los pasos para preparar la presentación.",
         "pasos": [
-            "Armar el grupo de trabajo y repartir temas",
-            "Buscar la información correspondiente a cada parte",
-            "Juntar todo el contenido en un mismo documento",
-            "Armar las diapositivas de la presentación",
+            "Armar el grupo de trabajo",
+            "Buscar información sobre el tema",
+            "Juntar toda la información en un mismo documento",
             "Practicar la exposición entre todos",
-            "Exponer el tema frente al curso"
+            "Exponer frente al curso"
         ],
         "explicacion": "Los algoritmos ayudan a coordinar actividades complejas donde intervienen varias personas y cada paso depende del anterior."
     },
@@ -315,12 +311,11 @@ ESCENARIOS = [
         "dificultad": "dificil",
         "historia": "Querés ir al cine con amigos y comprar las entradas desde la app. Ordená los pasos para realizar la compra.",
         "pasos": [
-            "Abrir la aplicación del cine y elegir el complejo",
-            "Seleccionar la película del catálogo disponible",
-            "Elegir el horario de la función",
-            "Seleccionar la cantidad de entradas y butacas",
-            "Pagar las entradas con el método seleccionado",
-            "Guardar el código QR desplegado para entrar a la sala"
+            "Abrir la aplicación del cine",
+            "Elegir el cine",
+            "Seleccionar la película",
+            "Elegir el horario y cantidad de entradas",
+            "Pagar las entradas",
         ],
         "explicacion": "Comprar entradas en una aplicación requiere seguir una secuencia lógica fija donde cada paso habilita el siguiente."
     },
@@ -332,12 +327,11 @@ ESCENARIOS = [
         "dificultad": "dificil",
         "historia": "Querés crear un video corto para compartir. Ordená los pasos necesarios para prepararlo y publicarlo.",
         "pasos": [
-            "Pensar qué mostrar en el video",
+            "Planificar el contenido",
             "Grabar el video",
-            "Revisar la grabación inicial",
-            "Añadir música y efectos de edición",
-            "Guardar la versión final del video",
-            "Publicar el video en la plataforma"
+            "Editar el video",
+            "Guardar el proyecto final",
+            "Publicar"
         ],
         "explicacion": "Los algoritmos pueden utilizarse para planificar proyectos creativos, organizando ideas y acciones hasta llegar a un resultado final."
     }
